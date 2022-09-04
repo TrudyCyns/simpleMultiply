@@ -8,4 +8,7 @@ describe('Multiplication', () => {
   it('Multiplication of 2 test', () => {
     assert.equal(multiply(2, 2), 4);
   });
+  it('Multiplication of 3 test', () => {
+    assert.equal(multiply(3, 3), 9);
+  });
 });
