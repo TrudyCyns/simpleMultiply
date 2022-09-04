@@ -14,4 +14,7 @@ describe('Multiplication', () => {
   it('Multiplication of 4 test', () => {
     assert.equal(multiply(4, 4), 16);
   });
+  it('Multiplication of 23 and 45 test', () => {
+    assert.equal(multiply(23, 45), 23 * 45);
+  });
 });
